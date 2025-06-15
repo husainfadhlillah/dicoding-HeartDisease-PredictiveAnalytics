@@ -1,4 +1,4 @@
-# Proyek Predictive Analytics: Prediksi Penyakit Jantung 🩺❤️
+# Proyek Predictive Analytics: Prediksi Penyakit Jantung 🩺
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_logo.svg/1200px-Pandas_logo.svg.png" width="100" alt="Pandas Logo">
