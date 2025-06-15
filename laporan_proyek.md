@@ -152,6 +152,7 @@ Dataset dibagi menjadi data latih (80%) dan data uji (20%). Parameter `stratify=
     - `random_state=42`: Memastikan bahwa hasil pembagian data selalu sama setiap kali kode dijalankan, sehingga eksperimen menjadi dapat direproduksi.
 
 - **Alasan:**
+
   - **Evaluasi yang Objektif:** Pemisahan data menjadi set latih dan uji adalah langkah fundamental dalam machine learning untuk mencegah _data leakage_. Model dilatih hanya pada data latih dan kemudian diuji pada data uji yang "baru" dan belum pernah dilihat sebelumnya. Ini memberikan evaluasi yang jujur dan objektif mengenai kemampuan generalisasi model pada data baru.
   - **Menjaga Proporsi Kelas:** Penggunaan `stratify=y` sangat penting karena distribusi kelas pada dataset tidak seimbang sempurna (55% vs 45%). Stratifikasi memastikan bahwa proporsi pasien sehat dan sakit di dalam set latih maupun set uji sama dengan proporsi pada dataset asli. Hal ini mencegah kemungkinan salah satu set data (misalnya, set uji) secara kebetulan memiliki proporsi kelas yang sangat berbeda, yang dapat menghasilkan evaluasi performa yang bias dan tidak dapat diandalkan.
 
