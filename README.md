@@ -123,7 +123,3 @@ Untuk menjalankan notebook proyek ini di lingkungan lokal, ikuti langkah-langkah
     ```bash
     jupyter notebook notebook_proyek.ipynb
     ```
-
-```
-
-```
